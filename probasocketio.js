@@ -1,11 +1,11 @@
-var socket = io.connect('http://localhost:8888');
+// var socket = io.connect('http://localhost:8888');
 // location.hostname
 // location.host
 // var socket1 = io.connect('http://192.168.1.33:8888');
 
 
 var sURL = "http://" + location.host;
-var socket1 = io.connect(sURL);
+var socket = io.connect(sURL);
 
 socket.on('news', function (data) {
 	console.log(data);
