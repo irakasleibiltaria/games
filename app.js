@@ -21,7 +21,7 @@ app.get('/jquery-1.9.0.js', function (req, res) {
 });
 
 app.get('/hammer.js', function (req, res) {
-  res.sendfile(__dirname + '/hammer.js');
+  res.sendfile(__dirname + '/hammer/hammer.js');
 });
 
 
